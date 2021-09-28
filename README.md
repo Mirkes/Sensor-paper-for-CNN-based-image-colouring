@@ -12,8 +12,8 @@ This repository contains Matlab code for CNN modelling data in code.m. The code 
 2. slices each city-size image into an input images, required for CNN, of certain size (parameter k);
 3. runs the CNN, using built-in trainNetwork function, over training and testing sets;
 4. calculates the CNN performance via two indicators - Weighted Mean Squared Error (wmse) and Pearson's correlation (correl) - for each pair of cities, used as the training and the testing datasets.
-### tif - files
-This repository contains 48 tif-files in the tif-data subfolder. That is, for each of 8 considered cities, there are 6 city-size images: 
+### tif_data
+This repository contains 48 tif-files in the tif_data subfolder. That is, for each of 8 considered cities, there are 6 city-size images: 
 1. panchromatic light (file names start with 'alan'); 
 2. average of HBASE (file names start with 'avgHBASE');  
 3. standard deviation of HBASE (file names start with 'sdHBASE');  
@@ -28,7 +28,7 @@ All the files were pre-processed (that is, georeferenced, cropped, and resampled
 ### tif2png
 This script allow you to convert presented tif-files into conventional png images
 
-### png-data
+### png_data
 This folder contains png vestions of tif-files and can be used for illustrations only. All processing must pe performed with tif-files.
 
 
